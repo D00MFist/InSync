@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49F0C3BF24B519F000E24203 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F0C3BE24B519F000E24203 /* AppDelegate.m */; };
+		49F0C3C124B519F700E24203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F0C3C024B519F700E24203 /* Assets.xcassets */; };
+		49F0C3C424B519F700E24203 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F0C3C224B519F700E24203 /* MainMenu.xib */; };
+		49F0C3C724B519F700E24203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F0C3C624B519F700E24203 /* main.m */; };
+		49F0C3D624B51B3200E24203 /* FinderSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F0C3D524B51B3200E24203 /* FinderSync.m */; };
+		49F0C3DB24B51B3200E24203 /* FinderSync.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49F0C3D224B51B3200E24203 /* FinderSync.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49F0C3D924B51B3200E24203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F0C3B224B519F000E24203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F0C3D124B51B3200E24203;
+			remoteInfo = FinderSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49F0C3DF24B51B3200E24203 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				49F0C3DB24B51B3200E24203 /* FinderSync.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49F0C3BA24B519F000E24203 /* InSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F0C3BD24B519F000E24203 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49F0C3BE24B519F000E24203 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49F0C3C024B519F700E24203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49F0C3C324B519F700E24203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		49F0C3C524B519F700E24203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F0C3C624B519F700E24203 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49F0C3C824B519F700E24203 /* InSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InSync.entitlements; sourceTree = "<group>"; };
+		49F0C3D224B51B3200E24203 /* FinderSync.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinderSync.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F0C3D424B51B3200E24203 /* FinderSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinderSync.h; sourceTree = "<group>"; };
+		49F0C3D524B51B3200E24203 /* FinderSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderSync.m; sourceTree = "<group>"; };
+		49F0C3D724B51B3200E24203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F0C3D824B51B3200E24203 /* FinderSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderSync.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F0C3B724B519F000E24203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F0C3CF24B51B3200E24203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F0C3B124B519F000E24203 = {
+			isa = PBXGroup;
+			children = (
+				49F0C3BC24B519F000E24203 /* InSync */,
+				49F0C3D324B51B3200E24203 /* FinderSync */,
+				49F0C3BB24B519F000E24203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F0C3BB24B519F000E24203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F0C3BA24B519F000E24203 /* InSync.app */,
+				49F0C3D224B51B3200E24203 /* FinderSync.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F0C3BC24B519F000E24203 /* InSync */ = {
+			isa = PBXGroup;
+			children = (
+				49F0C3BD24B519F000E24203 /* AppDelegate.h */,
+				49F0C3BE24B519F000E24203 /* AppDelegate.m */,
+				49F0C3C024B519F700E24203 /* Assets.xcassets */,
+				49F0C3C224B519F700E24203 /* MainMenu.xib */,
+				49F0C3C524B519F700E24203 /* Info.plist */,
+				49F0C3C624B519F700E24203 /* main.m */,
+				49F0C3C824B519F700E24203 /* InSync.entitlements */,
+			);
+			path = InSync;
+			sourceTree = "<group>";
+		};
+		49F0C3D324B51B3200E24203 /* FinderSync */ = {
+			isa = PBXGroup;
+			children = (
+				49F0C3D424B51B3200E24203 /* FinderSync.h */,
+				49F0C3D524B51B3200E24203 /* FinderSync.m */,
+				49F0C3D724B51B3200E24203 /* Info.plist */,
+				49F0C3D824B51B3200E24203 /* FinderSync.entitlements */,
+			);
+			path = FinderSync;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F0C3B924B519F000E24203 /* InSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F0C3CB24B519F700E24203 /* Build configuration list for PBXNativeTarget "InSync" */;
+			buildPhases = (
+				49F0C3B624B519F000E24203 /* Sources */,
+				49F0C3B724B519F000E24203 /* Frameworks */,
+				49F0C3B824B519F000E24203 /* Resources */,
+				49F0C3DF24B51B3200E24203 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F0C3DA24B51B3200E24203 /* PBXTargetDependency */,
+			);
+			name = InSync;
+			productName = InSync;
+			productReference = 49F0C3BA24B519F000E24203 /* InSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49F0C3D124B51B3200E24203 /* FinderSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F0C3DC24B51B3200E24203 /* Build configuration list for PBXNativeTarget "FinderSync" */;
+			buildPhases = (
+				49F0C3CE24B51B3200E24203 /* Sources */,
+				49F0C3CF24B51B3200E24203 /* Frameworks */,
+				49F0C3D024B51B3200E24203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinderSync;
+			productName = FinderSync;
+			productReference = 49F0C3D224B51B3200E24203 /* FinderSync.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F0C3B224B519F000E24203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = D00mfist;
+				TargetAttributes = {
+					49F0C3B924B519F000E24203 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					49F0C3D124B51B3200E24203 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 49F0C3B524B519F000E24203 /* Build configuration list for PBXProject "InSync" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F0C3B124B519F000E24203;
+			productRefGroup = 49F0C3BB24B519F000E24203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F0C3B924B519F000E24203 /* InSync */,
+				49F0C3D124B51B3200E24203 /* FinderSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F0C3B824B519F000E24203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F0C3C124B519F700E24203 /* Assets.xcassets in Resources */,
+				49F0C3C424B519F700E24203 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F0C3D024B51B3200E24203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F0C3B624B519F000E24203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F0C3C724B519F700E24203 /* main.m in Sources */,
+				49F0C3BF24B519F000E24203 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F0C3CE24B51B3200E24203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F0C3D624B51B3200E24203 /* FinderSync.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49F0C3DA24B51B3200E24203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F0C3D124B51B3200E24203 /* FinderSync */;
+			targetProxy = 49F0C3D924B51B3200E24203 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49F0C3C224B519F700E24203 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F0C3C324B519F700E24203 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49F0C3C924B519F700E24203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		49F0C3CA24B519F700E24203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49F0C3CC24B519F700E24203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = InSync/InSync.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.InSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49F0C3CD24B519F700E24203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = InSync/InSync.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.InSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49F0C3DD24B51B3200E24203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FinderSync/FinderSync.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FinderSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.InSync.FinderSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49F0C3DE24B51B3200E24203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FinderSync/FinderSync.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FinderSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.InSync.FinderSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F0C3B524B519F000E24203 /* Build configuration list for PBXProject "InSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F0C3C924B519F700E24203 /* Debug */,
+				49F0C3CA24B519F700E24203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F0C3CB24B519F700E24203 /* Build configuration list for PBXNativeTarget "InSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F0C3CC24B519F700E24203 /* Debug */,
+				49F0C3CD24B519F700E24203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F0C3DC24B51B3200E24203 /* Build configuration list for PBXNativeTarget "FinderSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F0C3DD24B51B3200E24203 /* Debug */,
+				49F0C3DE24B51B3200E24203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F0C3B224B519F000E24203 /* Project object */;
+}
