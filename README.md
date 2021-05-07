@@ -32,7 +32,7 @@ https://objective-see.com/blog/blog_0x11.html
 
   ```
     //automatically invoked when bundle is loaded
-    **attribute**((constructor)) static void byebyebye()
+    __attribute__((constructor)) static void byebyebye()
     {
     // Just a message box payload
     NSAlert *alert = [[NSAlert alloc] init];
